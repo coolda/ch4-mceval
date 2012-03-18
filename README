@@ -1,0 +1,15 @@
+/* README */
+ch4-mceval is a metacircular evaluator from chapter 4
+section 4.1.1-4.1.4 of SICP 
+(STRUCTURE AND INTERPRETATION OF COMPUTER PROGRAMS)
+and added some lines from prof. Berthold K.P. Horn version
+http://people.csail.mit.edu/bkph/courses/6001/
+added primitive procedures listed in r5rs
+http://www.schemers.org/Documents/Standards/R5RS/
+It is useful when a new Scheme interpreter comes in,
+uncommented (driver-loop) and mount.
+run it and check everything works. 
+In drracket, choose a language to R5RS and make sure
+no checkmark on redefinition of initial bound thing.
+When start > (driver-loop)
+When stop > **quit**  
